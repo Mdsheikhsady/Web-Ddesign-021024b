@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+.anouncement {
+    margin: 0;
+    background-color: #eb5109;
+}
+.anouncement p{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10 0 10 0;
+    letter-spacing: 8px;
+    text-align: center;
+    color: #fff;
+}
+.menu{
+
+padding-bottom: 10px;
+
+border-bottom: 1px solid #eb51096e;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+ul li{
+
+list-style: none;
+
+display: inline-block;
+
+}
+ul li a{
+text-decoration: none;
+display: block;
+background-color: #fff;
+color: #eb5109;
+padding: 8px 10px;
+text-transform: capitalize;
+border: 1px solid #eb5109
+}
+ul li a:hover{
+    background-color: #eb5109;
+    color:#fff;
+}
+.banner-section{
+padding-top: 50px;
+}
+.banner{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+}
+.banner img{
+    border-radius: 15px;
+    max-width:100%;
+    max-height: 100%;
+    width: 100%;
+    box-shadow: 0px 0 20px 0 #000000b3;
+}
+.banner img:hover{
+    box-shadow: 0px 0 0 0 #000000b3;
+}
+
+.content{
+    width:900px;
+    margin:auto;
+}
+.content h1{
+    font-weight: 900;
+}
